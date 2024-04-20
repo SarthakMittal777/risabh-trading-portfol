@@ -1,3 +1,4 @@
+import whyUs from "./whyUs";
 import services from "./services";
 
-export { services };
+export { whyUs, services };

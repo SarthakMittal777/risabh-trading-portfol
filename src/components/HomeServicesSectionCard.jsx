@@ -1,7 +1,7 @@
 const HomeServicesSectionCard = ({ service }) => {
   const { name, description, image } = service;
   return (
-    <div className="group border border-white/50 hover:bg-white w-80 h-96 p-4 rounded-lg shadow-lg hover:shadow-white/70 space-y-2">
+    <div className="group border border-white/60 hover:bg-white w-80 h-[22rem] p-4 rounded-lg shadow-lg hover:shadow-white/70 space-y-2">
       <img
         src={image}
         alt={name}

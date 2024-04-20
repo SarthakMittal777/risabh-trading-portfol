@@ -10,7 +10,7 @@ const HomeBinarySection = () => {
         <h2 className="text-5xl font-bold font-kalnia">
           Why trade binary options?
         </h2>
-        <div className="ml-2 w-4/5 [&>*>*>p]:text-gray-600">
+        <div className="md:ml-2 md:w-4/5 [&>*>*>p]:text-gray-600">
           <div className="py-2 flex gap-2 group hover:bg-gradient-to-r from-primary to-blue-700">
             <div className="bg-primary w-1.5"></div>
             <div>

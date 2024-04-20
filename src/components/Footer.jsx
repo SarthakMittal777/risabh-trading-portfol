@@ -4,8 +4,8 @@ import { RiInstagramFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <footer className="flex bg-primary text-gray-200 px-6 py-4 min-h-28">
-      <div className="w-1/3">
+    <footer className="flex flex-col md:flex-row bg-primary text-gray-200 px-6 py-4 min-h-28">
+      <div className="md:w-1/3">
         <div className="w-full">
           <Link to="/" className="w-full">
             <img

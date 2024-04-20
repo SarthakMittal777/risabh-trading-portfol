@@ -13,7 +13,7 @@ const HomeHeroSection = () => {
         <source src={heroSectionTradingVideo} type="video/mp4" />
       </video>
       <div className="w-full h-dvh flex justify-center items-center">
-        <div className="w-3/5 text-center space-y-2">
+        <div className="w-full md:w-3/5 text-center space-y-2">
           <h2 className="text-6xl font-bold text-white font-kalnia">
             TRADING MADE SIMPLE
           </h2>

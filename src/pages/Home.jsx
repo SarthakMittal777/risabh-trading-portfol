@@ -1,4 +1,13 @@
-import { Footer, HomeBinarySection, HomeHeroSection, HomeServicesSection, Navbar } from "../components";
+import {
+  Footer,
+  HomeAboutUs,
+  HomeBinarySection,
+  HomeHeroSection,
+  HomeServicesSection,
+  HomeSocialSection,
+  HomeWhyUs,
+  Navbar,
+} from "../components";
 
 const Home = () => {
   return (
@@ -8,7 +17,10 @@ const Home = () => {
       <main className="text-gray-300">
         <HomeHeroSection />
         <HomeBinarySection />
+        <HomeAboutUs />
+        <HomeWhyUs />
         <HomeServicesSection />
+        <HomeSocialSection />
       </main>
 
       <Footer />
