@@ -1,12 +1,18 @@
-import { Footer, Navbar } from "../components";
+import { Footer, HomeBinarySection, HomeHeroSection, HomeServicesSection, Navbar } from "../components";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Navbar />
-      <h1>Home</h1>
+
+      <main className="text-gray-300">
+        <HomeHeroSection />
+        <HomeBinarySection />
+        <HomeServicesSection />
+      </main>
+
       <Footer />
-    </div>
+    </>
   );
 };
 

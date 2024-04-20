@@ -5,5 +5,10 @@
 @tailwind utilities;
 
 * {
-  @apply transition-all ease-in-out;
+  @apply transition-all ease-in-out duration-300;
+}
+
+img {
+  -webkit-user-drag: none;
+  @apply select-none;
 }
