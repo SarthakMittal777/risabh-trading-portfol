@@ -1,5 +1,5 @@
 import { YouTubeEmbed } from "react-social-media-embed";
-import { InstagramEmbed } from "react-social-media-embed";
+// import { InstagramEmbed } from "react-social-media-embed";
 import { FaYoutube } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 
@@ -43,7 +43,29 @@ const HomeSocialSection = () => {
         </a>
       </div>
       <div className="flex flex-wrap justify-around items-center mx-auto gap-4">
-        <InstagramEmbed
+        <iframe
+          src="https://www.instagram.com/reel/C4c1PocPuXl/embed"
+          width="328"
+          height="450"
+          frameBorder="0"
+          scrolling="no"
+        ></iframe>
+        <iframe
+          src="https://www.instagram.com/reel/C4Nh3VXP7Pb/embed"
+          width="328"
+          height="450"
+          frameBorder="0"
+          scrolling="no"
+        ></iframe>
+        <iframe
+          src="https://www.instagram.com/reel/C3MUBoZv0J2/embed"
+          width="328"
+          height="450"
+          frameBorder="0"
+          scrolling="no"
+        ></iframe>
+
+        {/* <InstagramEmbed
           url="https://www.instagram.com/reel/C4c1PocPuXl/"
           width={328}
           height={450}
@@ -57,7 +79,7 @@ const HomeSocialSection = () => {
           url="https://www.instagram.com/reel/C3MUBoZv0J2/"
           width={328}
           height={450}
-        />
+        /> */}
       </div>
       <div className="flex">
         <a
