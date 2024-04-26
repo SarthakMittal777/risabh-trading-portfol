@@ -18,3 +18,7 @@ export {
   HomeServicesSection,
   HomeSocialSection,
 };
+
+import ServicesDetails from "./ServicesDetails";
+
+export { ServicesDetails };
