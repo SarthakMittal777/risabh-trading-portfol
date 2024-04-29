@@ -2,7 +2,10 @@ import { aboutUs } from "../assets";
 
 const HomeAboutUs = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center gap-4 px-4 py-6 bg-primary w-full">
+    <section
+      id="about"
+      className="flex flex-col md:flex-row items-center gap-4 px-4 py-6 bg-primary w-full"
+    >
       <div className="md:w-1/2 space-y-4">
         <h2 className="text-5xl font-bold font-kalnia text-white">About Us</h2>
         <p className="text-gray-300">

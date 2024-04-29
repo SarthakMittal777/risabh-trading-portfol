@@ -11,7 +11,7 @@ const Services = () => {
     <>
       <Navbar />
 
-      <main className="text-gray-300 p-6 md:w-2/3">
+      <main className="text-gray-300 p-6">
         <ServicesDetails service={service} />
       </main>
 
