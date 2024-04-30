@@ -11,12 +11,10 @@ const Navbar = () => {
           Mortal Trading
         </h1>
       </div>
-      <div className="hidden lg:flex gap- hover:[&>a]:bg-blue-100 hover:[&>a]:border-blue-600 [&>a]:border-transparent [&>a]:border [&>a]:px-4 [&>a]:py-1 [&>a]:rounded-xl">
+      <div className="hidden lg:flex gap-1 hover:[&>a]:border-blue-600 [&>a]:border-transparent [&>a]:border [&>a]:px-4 [&>a]:py-1 [&>a]:rounded-xl">
         <a href="/#about">About</a>
         <a href="/#services">Services</a>
-        <Link to="/blog">Blogs</Link>
-        <Link to="/money-management">Money Management</Link>
-        <Link to="/contact">Contact</Link>
+        <a href="/#footer">Contact</a>
       </div>
     </nav>
   );

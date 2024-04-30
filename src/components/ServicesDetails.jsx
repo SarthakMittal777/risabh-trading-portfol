@@ -1,6 +1,16 @@
+import { useEffect } from "react";
+
 const ServicesDetails = ({ service }) => {
   const { name, image, content } = service;
   console.log(service);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    scrollToTop();
+  }, [name]);
 
   return (
     <div className="space-y-6 text-primary/80">

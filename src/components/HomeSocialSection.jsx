@@ -33,36 +33,33 @@ const HomeSocialSection = () => {
         <a
           href="https://youtube.com/@Mortaltraderofficiall"
           target="_blank"
-          className="group border-2 border-[#FF0000] flex items-center gap-2 px-3 py-1.5 mx-auto text-[#FF0000] hover:text-white hover:bg-[#FF0000] rounded-lg"
+          className="border-2 border-[#FF0000] flex items-center gap-2 px-3 py-1.5 mx-auto text-[#FF0000] hover:text-white hover:bg-[#FF0000] rounded-lg"
         >
-          <FaYoutube
-            size={25}
-            className="inline-block group-hover:animate-pulse -mb-0.5"
-          />
+          <FaYoutube size={25} className="inline-block -mb-0.5" />
           View More Strategies
         </a>
       </div>
       <div className="flex flex-wrap justify-around items-center mx-auto gap-4">
         <iframe
           src="https://www.instagram.com/reel/C4c1PocPuXl/embed"
-          width="328"
-          height="450"
+          height="430"
           frameBorder="0"
           scrolling="no"
+          className="md:w-1/3 max-w-[325px]"
         ></iframe>
         <iframe
           src="https://www.instagram.com/reel/C4Nh3VXP7Pb/embed"
-          width="328"
-          height="450"
+          height="430"
           frameBorder="0"
           scrolling="no"
+          className="md:w-1/3 max-w-[325px]"
         ></iframe>
         <iframe
           src="https://www.instagram.com/reel/C3MUBoZv0J2/embed"
-          width="328"
-          height="450"
+          height="430"
           frameBorder="0"
           scrolling="no"
+          className="md:w-1/3 max-w-[325px]"
         ></iframe>
 
         {/* <InstagramEmbed
@@ -85,12 +82,9 @@ const HomeSocialSection = () => {
         <a
           href="https://www.instagram.com/mortalxtrader"
           target="_blank"
-          className="group border-2 border-[#833AB4] flex items-center gap-2 px-3 py-1.5 mx-auto text-[#833AB4] hover:text-white hover:bg-[#833AB4] rounded-lg"
+          className="border-2 border-[#833AB4] flex items-center gap-2 px-3 py-1.5 mx-auto text-[#833AB4] hover:text-white hover:bg-[#833AB4] rounded-lg"
         >
-          <RiInstagramFill
-            size={25}
-            className="inline-block group-hover:animate-pulse -mb-0.5"
-          />
+          <RiInstagramFill size={25} className="inline-block -mb-0.5" />
           View More Reels
         </a>
       </div>
