@@ -1,4 +1,4 @@
-import { heroSectionTradingVideo } from "../assets";
+import { heroSectionTradingVideo, heroSectionTradingPoster } from "../assets";
 
 const HomeHeroSection = () => {
   return (
@@ -9,6 +9,8 @@ const HomeHeroSection = () => {
         muted
         loop
         className="absolute w-full h-dvh object-center object-cover -z-10"
+        crossOrigin="anonymous"
+        poster={heroSectionTradingPoster}
       >
         <source src={heroSectionTradingVideo} type="video/mp4" />
       </video>

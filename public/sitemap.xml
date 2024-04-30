@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<url>
+		<loc>https://mortaltrading.com/</loc>
+		<lastmod>2024-04-30T09:13:30+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://mortaltrading.com/services/binary-options-trading</loc>
+		<lastmod>2024-04-30T09:13:30+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://mortaltrading.com/services/future-and-options</loc>
+		<lastmod>2024-04-30T09:13:30+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://mortaltrading.com/services/stock-market-consultancy</loc>
+		<lastmod>2024-04-30T09:13:30+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://mortaltrading.com/services/share-market-consultancy</loc>
+		<lastmod>2024-04-30T09:13:30+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://mortaltrading.com/services/forex-trading</loc>
+		<lastmod>2024-04-30T09:13:30+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://mortaltrading.com/services/crypto-currency-trading</loc>
+		<lastmod>2024-04-30T09:13:30+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+</urlset>

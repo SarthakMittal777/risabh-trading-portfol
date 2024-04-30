@@ -42,6 +42,7 @@ const HomeSocialSection = () => {
       <div className="flex flex-wrap justify-around items-center mx-auto gap-4">
         <iframe
           src="https://www.instagram.com/reel/C4c1PocPuXl/embed"
+          name="Instagram Reel"
           height="430"
           frameBorder="0"
           scrolling="no"
@@ -49,6 +50,7 @@ const HomeSocialSection = () => {
         ></iframe>
         <iframe
           src="https://www.instagram.com/reel/C4Nh3VXP7Pb/embed"
+          name="Instagram Reel"
           height="430"
           frameBorder="0"
           scrolling="no"
@@ -56,6 +58,7 @@ const HomeSocialSection = () => {
         ></iframe>
         <iframe
           src="https://www.instagram.com/reel/C3MUBoZv0J2/embed"
+          name="Instagram Reel"
           height="430"
           frameBorder="0"
           scrolling="no"
